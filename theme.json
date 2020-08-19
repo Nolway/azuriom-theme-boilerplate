@@ -1,0 +1,10 @@
+{
+    "id": "boilerplate",
+    "name": "Azuriom Boilerplate",
+    "version": "1.0.0",
+    "description": "A simple boilerplate for Azuriom CMS",
+    "url" : "https://azuriom.com",
+    "authors": [
+        "Nolway"
+    ]
+}
