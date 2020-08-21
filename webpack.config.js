@@ -23,8 +23,19 @@ let config = {
             {
               loader: 'css-loader',
               options: {
-                modules: true,
+                modules: 'global',
                 sourceMap: isDevelopment
+              }
+            },
+            {
+              loader: 'postcss-loader',
+              options: {
+                sourceMap: isDevelopment,
+                plugins: function () {
+                  return [
+                    require('autoprefixer')
+                  ];
+                }
               }
             },
             {

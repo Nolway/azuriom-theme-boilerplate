@@ -1,4 +1,6 @@
+import "bootstrap";
+import axios from 'axios';
+
 import "../scss/style.scss";
 
-var hello = "Hello World!";
-console.log(hello);
+console.log("Hello World!");
